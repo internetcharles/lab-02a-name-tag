@@ -1,0 +1,59 @@
+
+
+body {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: grey;
+    text-align: center;
+    width: 400px;
+}
+
+h1, h3 {
+    background-color: red;
+    margin-bottom: 0px;
+}
+
+.middle {
+    background-color: white
+}
+
+.boldCap {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 75px;
+    text-transform: uppercase;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.subHead {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 50;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+footer {
+    background-color: red;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+section {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.white {
+    background-color: white;
+    width: 400px;
+}
