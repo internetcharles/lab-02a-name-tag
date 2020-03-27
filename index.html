@@ -7,8 +7,9 @@
      <meta name='viewport' content='width=device-width, initial-scale=1'>
      <link rel="stylesheet" href="main.css">
      <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
  </head>
- <body>
+ <body class="nameCard">
 
      <header>
 
@@ -17,18 +18,21 @@
      <main>
         <h1 class="boldCap">Hello</h1>
         <h3 class="subHead">my name is</h3>
-            <section class="middle">
+            <section class="middle" id="name">
                  Steven Universe
             </section>
-         
-
+         <div class = "subTitle">(full-stack javascript developer)</div>
         </main>
         
      <footer>
 
+         <br>
+         <input id = 'nameEntry'></input>
+         <button id = 'my-button'>submit</button>
          <br>
          <br>
 
      </footer>
  </body>
  </html>
+ <script type="module" src ="./app.js"></script>

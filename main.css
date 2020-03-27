@@ -1,11 +1,24 @@
 
+html {
+    display: table;
+    margin: auto;
+}
 
 body {
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: grey;
     text-align: center;
-    width: 400px;
+    width: 440px;
+}
+
+button {
+    background-color: white;
+}
+
+button:hover {
+    background-color: darkred;
+    color: white;
 }
 
 h1, h3 {
@@ -17,11 +30,16 @@ h1, h3 {
     background-color: white
 }
 
+.nameCard {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .boldCap {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 1000;
-    font-size: 75px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
     text-transform: uppercase;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -29,8 +47,8 @@ h1, h3 {
 
 .subHead {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
     font-weight: 50;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -48,12 +66,19 @@ section {
     font-family: 'Cedarville Cursive', cursive;
     font-size: 35px;
     font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 10px;
     background-color: white;
 }
 
 .white {
     background-color: white;
     width: 400px;
+
+}
+
+.subTitle {
+    background-color: white;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 20px;
+    padding-bottom: 10px;
+    background-color: white;
 }
